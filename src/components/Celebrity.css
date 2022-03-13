@@ -1,0 +1,149 @@
+.celebrity{
+   
+    background: #000;;
+    padding-bottom: 2rem;
+
+}
+
+
+
+
+
+.celebrity .controls button{
+  padding:1rem 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: transparent;
+  border-radius: .1rem;
+  text-transform:uppercase;
+  transition: all .5s linear;
+  border: .1rem solid #fff;
+
+}
+
+
+.celebrity .controls button:hover{
+  border: .1rem solid #fff;
+  color: #000;
+  background-color: #fff;
+}
+
+.celebrity .controls input{
+ border:.1rem solid #222;
+ width: 40rem;
+ padding: 1rem;
+ border-radius: .1rem;
+font-size: 2rem;
+color:#111
+}
+.celebrity .controls input:focus{
+  border-radius: .3rem;
+
+ }
+
+
+.celebrity .controls{
+margin: 0 auto ;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-around;
+    width: 80rem;
+    flex-wrap: wrap;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+
+    }
+
+.celebrity .box{
+  box-shadow: 0 .4rem .8rem .2rem rgba(255, 255, 255, 0.6);
+  width: 80rem;
+  border-radius: .3rem;
+  background: url('https://img.wallpapic.com/i3665-925-09/medium/michael-jackson-black-tennis-dance-wallpaper.jpg') center center no-repeat   ;
+  background-size: cover;
+  padding:2rem 4rem 2rem;
+}
+
+.celebrity .col-12{
+background-color: rgba(0, 0, 0,  .6);
+border-radius: .3rem;
+;
+}
+.celebrity .col-12 p{
+  color: #fff;
+  font-size: 3rem;
+
+}
+
+.celebrity .col-12 p i{
+color: gold;
+
+}
+.celebrity .col-12 p strong{
+  text-shadow: 0 .2rem .4rem rgba(0, 0, 0,  .6);
+  
+  }
+
+
+.celebrity .col-6{
+  padding:1rem ;
+  margin: 0 0 2rem;
+
+}
+
+
+.celebrity .col-6 p{
+  font-size: 2rem;
+  color: rgb(229, 226, 226);
+
+}
+
+
+
+.celebrity .col-6 p strong{
+  text-shadow: 0 .2rem .4rem rgba(224, 16, 16, 0.6);
+  
+  }
+
+
+  .celebrity  .more-about{
+    text-align: left;
+  }
+
+
+  .celebrity  .more-about p{
+    font-size: 1.4rem;
+  } 
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width:991PX){
+    .celebrity .controls{
+      margin: 0 auto;
+          margin-bottom: 4rem;
+          display: flex;
+          width:50rem;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          }
+
+          .celebrity .controls input{
+          margin: 2rem 0;
+           }
+           
+    
+
+          .celebrity .box{
+            width: 50rem;
+            padding:2rem 2rem 2rem;
+           
+          }
+  }

@@ -1,0 +1,110 @@
+.faq{
+background-color: black;
+}
+
+.faq .faq-header{
+    background:url(https://www.pixel4k.com/wp-content/uploads/2018/09/question-marks-figures-3d-4k_1536854780.jpg) center no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+}
+
+.faq .faq-header .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .6);
+    width: 100%;
+    height: 100%;
+    
+
+}
+
+
+.faq .faq-header .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  z-index: 2;
+}
+
+.faq .faq-header .content h1{
+    font-size: 7rem;
+    color: #fff;
+    text-shadow: 0 .2rem .4rem rgba(0, 0, 0, .6);
+    font-weight: bold;
+    }
+
+    .faq .faq-header .content h1::first-letter{
+        text-transform: uppercase;
+         }
+
+
+         .faq .faq-header .content p{
+            font-size: 3rem;
+            color: #fff;
+            text-shadow: 0 .2rem .4rem rgba(0, 0, 0, .6);
+            }
+
+
+            .faq .colps{
+                margin: 4rem auto 0;
+                display: flex;
+                justify-content:center;
+                flex-wrap: wrap;
+           
+           
+
+            }
+            .faq .colps .colp{
+                flex: 1 1 30rem;
+           
+
+            }
+          
+                .faq .asked h3{
+                    font-weight: bold;
+                    margin: 4rem auto;
+                    font-size: 3rem;
+                    color: #fff;
+                    }
+            .faq .colps .colp{
+                margin: 0 auto;
+                }
+                .faq .colps .colp  p{
+                 
+                    border: none;
+                    }
+                .faq .colps .colp  button{
+                    background: #fff;
+                    color: #666;
+                    font-size: 1.6rem;
+                    font-weight: bold;
+                    border: none;
+                    }
+
+                   
+                    .faq .colps .colp  .content .card-body{
+                        margin: -1rem auto;
+                        font-size: 1.6rem;
+                        box-shadow: 0 .3rem .6rem rgba(255, 255, 255, .6);
+                       /* width: 50rem !important;
+                        height: 10rem;*/
+                        padding: 2rem;
+                        }                    
+
+                        .faq .colps .colp  .content .card-body span{
+                            font-weight: bold;
+                            }                        
+
+
+              @media screen and (max-width:991PX){
+                .faq .colps .colp{
+                    flex: 1 1 50rem;
+               
+    
+                }
+              }              

@@ -1,0 +1,94 @@
+.about {
+ background-color: black;
+}
+
+
+.about .about-header{   
+    background: url('https://st2.depositphotos.com/3591429/10966/i/950/depositphotos_109666078-stock-photo-group-of-designers-brainstorming.jpg') center center no-repeat;
+    background-size: cover;
+         width: 100vw;
+     height: 100vh;
+     position: relative;   
+}
+
+.about .about-header .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  background-color: rgba(0, 0, 0, .6);
+  display: inline;
+}
+
+
+.about .about-header .content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+z-index: 2;
+}
+
+.about .about-header .content h3{
+font-size: 7rem;
+color: #fff;
+text-shadow: 0 .2rem .4rem rgba(0, 0, 0, .6);
+font-weight: bold;
+}
+.about .about-header .content h3::first-letter{
+ text-transform: uppercase;
+  }
+
+.about .about-header .content p{
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 0 .2rem .4rem rgba(0, 0, 0, .6);
+  }
+
+
+  .about .about-body {
+padding:8rem  4rem 12rem;
+    }
+
+
+    .about .about-body h1{
+font-size: 5rem;
+text-transform: uppercase;
+color: #fff;
+          }   
+
+          .about .about-body p.lorem{
+            font-size: 2rem;
+            border-bottom: .3rem solid rgb(201, 65, 65);
+            text-align: center;
+            margin: 2rem auto 2rem;
+            color: #fff;
+          
+           
+                      }   
+
+
+                   
+                            
+
+                      .about .about-body  .long-p{
+                        font-size: 2rem;
+                        text-align: center;
+                        margin: 2rem auto 2rem;
+                        width: 50rem;
+                       color: #fff;
+                                  }   
+                            
+
+                                  .about .img-p-con  {
+                                display: flex;
+                                justify-content: space-around;
+                                align-items: center;
+                                              }                                              
+                                              .about .img-p-con  img{
+                                               height: 40rem;
+                                               width: 40rem;
+                                               object-fit:contain;
+                                               border-radius: .6rem;
+                                                              }                              

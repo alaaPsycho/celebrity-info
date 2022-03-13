@@ -1,0 +1,86 @@
+.nav-bar{
+   z-index: 100;
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    z-index: 9999;
+}
+
+
+.nav-container .logo{
+ margin: 4rem 4rem 0;
+}
+
+.nav-container .logo img{
+ width: 6rem;
+ height: 6rem;
+ object-fit: cover;
+}
+
+.nav-container .links {
+position: relative;
+transform:perspective(80rem) skew(15deg);
+margin: 4rem 0 0;
+   }
+
+.nav-container .links .link{
+ font-size: 2rem;
+ margin:2rem 2rem 0;
+ color: rgb(30, 30, 31);
+ font-weight:bolder;
+ transition: all .4s ease-in;
+ text-decoration: none;
+
+}
+
+.nav-container .links .link:hover{
+  text-shadow: .1rem .1rem 1rem #fff;
+  }
+
+
+  .nav-container .links .link::after{
+   content: '';
+   position: absolute;
+   left: 2rem;
+   bottom: 3rem;;
+   border-bottom: .5rem solid transparent;
+   width: 0rem;
+   height: .1rem;
+   transition: all .4s ease-in;
+   border-radius: 1rem;
+
+     }
+     
+   
+.nav-container .links .link:hover::after{
+   content: '';
+   position: absolute;
+   border-bottom: .2rem solid rgb(163, 12, 12);
+   width: 60%;
+     }
+     
+.nav-container form input{
+width: 25rem;
+height: 3rem;
+    
+   }
+
+
+
+
+
+
+
+
+   @media screen and (max-width:991Px){
+      .nav-container .links .link{
+         margin:2rem 1rem 0;
+      
+        }
+   }

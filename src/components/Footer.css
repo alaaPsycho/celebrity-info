@@ -1,0 +1,89 @@
+.footer{
+    border-radius: .3rem;
+
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+ 
+}
+
+
+.footer .links-app{
+    padding: 2rem;
+}
+
+
+.footer .links-app a{
+   margin: 1rem;
+   text-decoration:none ;
+   font-size: 2rem;
+   transition: all .3s ease;
+   border-bottom: .2rem solid transparent;
+
+}
+
+.footer .links-app a:hover{
+   border-bottom: .2rem solid #0d6efd;
+ }
+ 
+
+ .footer .content-app .content {
+    margin: 1rem 0;
+    
+ }
+.footer .content-app .content a{
+   text-decoration: none;
+   display: block;
+   
+}
+
+.footer .content-app .content i {
+    font-size: 1.8rem;
+    margin: 0 .5rem;
+}
+.footer .content-app .content p{
+    color: #666;
+    font-size: 1.6rem;
+    display: inline;
+    
+}
+
+
+.footer .icons-app{
+margin-bottom: 2rem;
+}
+
+.footer .icons-app a{
+    margin: 0 1rem;
+    font-size: 1.4rem;
+
+}
+.footer .icons-app i{
+    transition: all .1s ease-in-out;
+
+}
+
+.footer .icons-app i:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+.footer .copy-right{
+    border-top: .3rem solid #0d6efd;
+    border-radius: .3rem;
+    margin:0 2rem;
+ 
+   display: flex;
+   justify-content: space-between;
+}
+.footer .copy-right p{
+    margin: 0;
+    font-size: 1.4rem;
+ }
+ 
+
+ .footer .copy-right p span{ 
+   color: #0d6efd;
+ }
+ 
